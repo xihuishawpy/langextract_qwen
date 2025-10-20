@@ -76,11 +76,10 @@ examples = [
     )
 ]
 
-# 本次演示：将输入与示例保持一致，便于对齐检查
+
 input_text = example_text
 
 import datetime
-
 start_time = datetime.datetime.now()
 
 result = lx.extract(
@@ -97,7 +96,7 @@ result = lx.extract(
 end_time = datetime.datetime.now()
 print(end_time-start_time)
 
-# 可选：保存 JSONL 并生成可视化 HTML（便于检查抽取位置与实体）
+
 lx.io.save_annotated_documents([result], output_name="product_extractions.jsonl", output_dir=".")
 html = lx.visualize("product_extractions.jsonl")
 with open("product_extractions.html", "w") as f:
@@ -105,5 +104,5 @@ with open("product_extractions.html", "w") as f:
         f.write(html.data)
     else:
         f.write(html)
-print("Saved: product_extractions.jsonl, product_extractions.html")
+
 
