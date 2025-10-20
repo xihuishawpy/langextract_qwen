@@ -1,5 +1,6 @@
 
 python3 -m env langextract_env
+
 source langextract_env/bin/activate
 
 pip install requirement.txt
