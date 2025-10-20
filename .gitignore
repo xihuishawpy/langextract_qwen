@@ -1,0 +1,73 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.$py.class
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.cache/
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.env/
+langextract_env/
+
+# Environment/config secrets
+.env
+*.env
+.env.*
+.python-dotenv
+
+# Build / packaging
+build/
+dist/
+sdist/
+*.egg-info/
+.eggs/
+develop-eggs/
+eggs/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage / test artifacts
+.coverage*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Editors/IDE
+.idea/
+.vscode/
+.history/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project outputs
+product_extractions.jsonl
+product_extractions.html
+
+# Provider plugin build outputs
+qwen_provider/dist/
+qwen_provider/build/
+qwen_provider/*.egg-info/
