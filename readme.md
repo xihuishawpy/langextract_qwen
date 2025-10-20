@@ -7,3 +7,6 @@ pip install requirement.txt
 
 插件安装：
 langextract_env/bin/pip install -e qwen_provider
+
+
+https://github.com/google/langextract
