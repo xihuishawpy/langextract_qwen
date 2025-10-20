@@ -8,8 +8,8 @@ except Exception:
 
 
 try:
-    from dotenv import load_dotenv  # type: ignore
-    load_dotenv()  # loads .env in current working directory
+    from dotenv import load_dotenv  
+    load_dotenv()  
 except Exception:
     pass
 
